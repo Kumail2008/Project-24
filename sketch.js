@@ -16,7 +16,7 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	Ball = new Paper(200,360,15);
+	Ball = new Paper(50,360,30);
 
 	//Create the Bodies Here.
 	groundSprite=createSprite(width/2, height-35, width,10);
@@ -62,7 +62,7 @@ function draw() {
   rectMode(CENTER);
   
   Ball.display();
-  keyPressed();
+  
   drawSprites();
  
 }

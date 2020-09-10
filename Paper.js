@@ -9,8 +9,8 @@ class Paper {
   var options = {
     isStatic : false,
     restitution: 0.3,
-     friction: 0.5,
-     density : 1.2,
+     friction: 1,
+     density : 3,
     }
   this.body= Bodies.circle(x, y, r/2, options);
   World.add(world, this.body);
